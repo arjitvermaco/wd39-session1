@@ -1,0 +1,71 @@
+.el--1{
+    background-color: blueviolet;
+    
+}
+.el--2{
+    background-color: orangered;
+}
+.el--3{
+    background-color: green;
+    height: 130px;
+}
+.el--4{
+    background-color: goldenrod;
+}
+.el--5{
+    background-color: steelblue;
+}
+.el--6{
+    background-color: yellow;
+}
+.el--7{
+    background-color: crimson;
+}
+.el--8{
+    background-color: palevioletred;
+}
+
+.container{
+    /* width: 50%; */
+    font-family: sans-serif;
+    background-color: #ddd;
+    font-size: 32px;
+    margin: 40px;
+    height: 900px;
+    /* FlexBox  */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:flex-start;
+    /* flex-start 
+    flex-end 
+    center
+    space-between 
+    space-around 
+    space-evenly */
+    align-items:center;
+      /* stretch 
+    flex-start
+    flex-end 
+    center 
+    baseline  */
+}
+
+.el{
+    flex-basis: 200px;
+    /* width: 200px; */
+    flex-grow: 1;
+}
+
+.el--6{
+    order: 1;
+    align-self:stretch ;
+    /* flex: flex-shrink flex-grow flex-basis; */
+    flex: 0 1 300px;
+
+
+}
+
+.el--5{
+    /* flex-grow: 1; */
+    order:-2;
+}

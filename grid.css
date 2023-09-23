@@ -1,0 +1,72 @@
+.el--1 {
+  background-color: blueviolet;
+}
+.el--2 {
+  background-color: orangered;
+}
+.el--3 {
+  background-color: green;
+}
+.el--4 {
+  background-color: goldenrod;
+}
+.el--5 {
+  background-color: steelblue;
+}
+.el--6 {
+  background-color: yellow;
+}
+.el--7 {
+  background-color: crimson;
+}
+.el--8 {
+  background-color: palevioletred;
+}
+
+.container {
+  font-family: sans-serif;
+  background-color: black;
+  font-size: 40px;
+  margin: 40px;
+  width: 700px;
+  height: 600px;
+
+  /* Grid  */
+  display: grid;
+  row-gap: 50px;
+  column-gap: 100px;
+  /* gap: 40px; */
+  /* grid-template-columns:repeat(2,1fr);
+  /* grid-template-rows: 150px 100px 125px; */
+  /* grid-template-rows:repeat(4,1fr); */
+
+  grid-template-columns: auto 100px auto;
+  grid-template-rows: repeat(2,1fr);
+
+
+  /* Align tracks inside a container - distribute empty space */
+  /* justify-content:end;
+  align-content:start;
+
+
+
+  /* align items inside a cell  */
+  /* align-items:start;*/
+  /* justify-items: center;   */
+  /* align-items: center; */
+}
+.el{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.el--3{
+    /* align-self: stretch;
+    text-align: center;
+ justify-self: stretch; */
+ 
+ align-self: stretch;
+
+
+}
